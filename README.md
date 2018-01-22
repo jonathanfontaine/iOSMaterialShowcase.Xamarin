@@ -13,7 +13,7 @@ public class TestViewController : UIViewController
     {
         base.ViewDidLoad();
         
-        // Place a button in the UITabBar
+        // Place a button in the NavigationBar
         target = new UIBarButtonItem(UIBarButtonSystemItem.Add, (sender, args) => Console.WriteLine("bar button clicked"));
         NavigationItem.SetRightBarButtonItem(target, true);
     }
